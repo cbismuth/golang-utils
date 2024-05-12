@@ -1,0 +1,11 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_library")
+
+go_library(
+    name = "domain",
+    srcs = [
+        "github_repository.go",
+        "github_repository_settings.go",
+    ],
+    importpath = "github.com/cbismuth/golang-gh-repo-settings-reset/src/domain",
+    visibility = ["//visibility:public"],
+)
