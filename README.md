@@ -1,4 +1,4 @@
-# Go :: GitHub Repository Settings Reset
+# Go :: GitHub Utils
 
 [![Go](https://github.com/cbismuth/golang-gh-repo-settings-reset/actions/workflows/go.yaml/badge.svg)](https://github.com/cbismuth/golang-gh-repo-settings-reset/actions/workflows/go.yaml)
 
