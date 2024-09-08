@@ -1,8 +1,8 @@
-# Go :: GitHub Repository Settings Reset
+# Go :: GitHub Utils
 
-[![Go](https://github.com/cbismuth/golang-gh-repo-settings-reset/actions/workflows/go.yaml/badge.svg)](https://github.com/cbismuth/golang-gh-repo-settings-reset/actions/workflows/go.yaml)
+[![Go](https://github.com/cbismuth/golang-github-utils/actions/workflows/go.yaml/badge.svg)](https://github.com/cbismuth/golang-github-utils/actions/workflows/go.yaml)
 
-Here is my pretty own Go utility to reset GitHub repository settings.
+Here is my pretty own Go utility to reset settings of GitHub repositories.
 
 ## Go local setup
 
@@ -13,7 +13,7 @@ Here is a sample Apple macOS setup with [Homebrew](https://brew.sh):
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Install Go utilities with Homebrew
-brew install bazelisk bazel go gopls delve
+brew install bazelisk bazel go
 
 # Export Go environment variables
 export GOPATH="${HOME}/.go" # Default is "${HOME}/go"

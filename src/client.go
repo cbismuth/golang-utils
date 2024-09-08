@@ -7,7 +7,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/cbismuth/golang-gh-repo-settings-reset/src/domain"
+	"github.com/cbismuth/golang-github-utils/src/domain"
 )
 
 type GitHubClient struct {

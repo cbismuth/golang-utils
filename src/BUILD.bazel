@@ -6,7 +6,7 @@ go_library(
         "client.go",
         "main.go",
     ],
-    importpath = "github.com/cbismuth/golang-gh-repo-settings-reset/src",
+    importpath = "github.com/cbismuth/golang-github-utils/src",
     visibility = ["//visibility:private"],
     deps = ["//src/domain"],
 )
