@@ -5,7 +5,7 @@
 * [GitHub](github): reset settings of GitHub repositories.
 * [AWS Secrets Manager](aws/secretsmanager): export AWS secrets to `.env` files.
 
-See local setup and build steps in [golang-tour](https://github.com/cbismuth/golang-tour) repository.
+See local setup and build steps in [golang-template](https://github.com/cbismuth/golang-template) repository.
 
 ## Credits
 
