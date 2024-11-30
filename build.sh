@@ -43,6 +43,3 @@ bazelisk test //... --test_output=all
 
 log "Querying all targets ..."
 bazelisk query //...
-
-log "Running main target ..."
-./bazel-bin/src/src_/src

@@ -8,8 +8,8 @@ import (
 )
 
 func main() {
-	token := os.Getenv("GITHUB_PAT")
-	if len(token) == 0 {
+	pat := os.Getenv("GITHUB_PAT")
+	if len(pat) == 0 {
 		log.Println("GITHUB_PAT environment variable not set")
 		log.Println("Repository permissions:")
 		log.Println("\t- Read access to metadata")
@@ -18,7 +18,9 @@ func main() {
 		return
 	}
 
-	client := GitHubClient{token}
+	client := GitHubClient{
+		PersonalAccessToken: pat,
+	}
 
 	repositories := client.GetGitHubRepositories()
 	for i, repository := range repositories {
