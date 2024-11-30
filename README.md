@@ -3,6 +3,7 @@
 [![Go](https://github.com/cbismuth/golang-utils/actions/workflows/go.yaml/badge.svg)](https://github.com/cbismuth/golang-utils/actions/workflows/go.yaml)
 
 * [GitHub](github): reset settings of GitHub repositories.
+* [AWS Secrets Manager](aws/secretsmanager): export AWS secrets to `.env` files.
 
 See local setup and build steps in [golang-tour](https://github.com/cbismuth/golang-tour) repository.
 

@@ -1,0 +1,20 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
+
+go_library(
+    name = "secretsmanager_lib",
+    srcs = ["main.go"],
+    importpath = "github.com/cbismuth/golang-utils/aws/secretsmanager",
+    visibility = ["//visibility:private"],
+    deps = [
+        "@com_github_aws_aws_sdk_go//aws",
+        "@com_github_aws_aws_sdk_go//aws/session",
+        "@com_github_aws_aws_sdk_go//service/secretsmanager",
+        "@com_github_aws_aws_sdk_go//service/sts",
+    ],
+)
+
+go_binary(
+    name = "secretsmanager",
+    embed = [":secretsmanager_lib"],
+    visibility = ["//visibility:public"],
+)
